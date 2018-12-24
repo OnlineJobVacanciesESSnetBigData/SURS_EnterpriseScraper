@@ -9,6 +9,7 @@ DIRECTORY
    *name_of_project*
           |
           scrapy.cfg - configuration file for scrapy
+          <sub>.csv and .txt log files will populate this directory after crawling domains</sub>
           *name_of_project*
                  |
                  _init_.py - an (usually) empty file that tells Python that this is a module
