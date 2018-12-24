@@ -10,7 +10,6 @@ The spider has 5 specific methods defined according to the standard scrapy guide
 * *parse*: this method is the backbone of the scrapy structure and executes whatever need actually be done after the connection is established.
            In this case the text on the page is collected and used for language detection and storage.
 
-Scrapers run in multithread mode on 3 threads. This is because we have an agreement with job portals to only use three agents at once. A working log is written at the same time.
 This module imports other modules and outside functions to work correctly:
 * module **scrapy**
 * function *signals* from **scrapy**
