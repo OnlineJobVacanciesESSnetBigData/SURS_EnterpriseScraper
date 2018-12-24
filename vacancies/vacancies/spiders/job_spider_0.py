@@ -233,12 +233,12 @@ class JobSpider(scrapy.Spider):
                                                                               '.ZIP', '.RAR', '.CSS', '.FLV', '.XML'
 
                                               # Twitter, Facebook, Youtube
-                                                                                                              '://twitter.com',
+                                              '://twitter.com',
                                               '://mobile.twitter.com', 'www.twitter.com',
                                               'www.facebook.com', 'www.youtube.com'
 
                                               # Feeds, RSS, arhiv
-                                                                  '/feed', '=feed', '&feed', 'rss.xml', 'arhiv'
+                                              '/feed', '=feed', '&feed', 'rss.xml', 'arhiv'
 
                                               ]):
                         continue
