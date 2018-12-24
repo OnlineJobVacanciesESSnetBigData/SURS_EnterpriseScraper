@@ -28,7 +28,7 @@ import datetime
 # We get three output files
 #  1) .html files in foldier 'posnetki'
 #  2) log.txt
-#  3) a record in the Korpus_YEAR_MONTH.tab file
+#  3) a record in the Corpus_YEAR_MONTH.tab file
 
 class JobSpider(scrapy.Spider):
     # Name of spider
