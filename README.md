@@ -37,8 +37,11 @@ the attributes must include a unique *name*, the method *parse* and either a lis
 starting URLs names *start_requests*. Other methods can be added following the correct guidelines. For more information check the 
 [scrapy project websites](https://doc.scrapy.org/en/latest/).
 
-
-
+### Steps of the scraping process
+1. We create crawlers that will crawl or our domains. 
+2. We run them on the same time, which creates .csv and log files as the output. 
+3. We combine these .csv outputs into a single .txt file that serves as the list of URLs for the scraper.
+4. We run the scraper, which creates a .tab file as the output.
 
 ###### *Keep in mind that all internet domains, paths to directories and files, file names and HTML tags are examples and should be changed before use.*
 
