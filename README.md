@@ -20,8 +20,9 @@ DIRECTORY
                  spiders
                     |
                      _init_.py - an (usually) empty file that tells Python that this is a module
-                     Spider_1.py
-                     Spider_2.py
+                     job_scraper.py
+                     job_spider_1.py
+                     job_spider_2.py
                      .
                      .
                      .
