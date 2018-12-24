@@ -1,8 +1,6 @@
 # Technical documentation for use of Python module job_scraper
 
-This document is a documentation file for the Python module **job_scraper.py**. The module is comprised by a class definition (*JobSpider*) with the name of "scraper". 
-The functions are used for scraping enterprise pages that were deemed potential job advertisements by the crawling process. The job of this spider is to collect the 
-text contents on all sites and save it into a *.tab* file that is used for analysis and processing.
+This document is a documentation file for the Python module **job_scraper.py**. The module is comprised by a class definition (*JobSpider*) with the name of "scraper". The class are used for scraping enterprise pages that were deemed potential job advertisements by the crawling process. The job of this spider is to collect the text contents on all sites and save it into a *.tab* file that is used for analysis and processing.
 
 The spider has 5 specific methods defined according to the standard scrapy guidelines. The methods are:
 * *from_crawler*: initiates the spider and starts the *spider_startinfo* before scraping and *spider_endinfo* after scraping.
