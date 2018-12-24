@@ -21,3 +21,12 @@ This module imports other modules and outside functions to work correctly:
 * module **time**
 * module **sys**
 * module **datetime**
+
+The output of the scraper is a .tab file in the scraping directory of the current period with 4 columns (delimited by the tab character) named Corpus_*year_month*.tab:
+1. NumberJV (an empty/NA column that will be filled in the further process of estimation)
+2. VacancySubpage
+3. Date
+4. Content
+
+The second row holds information about the nature of the columns (c for class feature, i for feature to be ignored, m for the meta attribute, C for continuous-typed feature, D for discrete feature, S for string).
+The third row specifies which columns are target and meta variables to be used in text mining. The microdata is written after 2 empty rows. This is a special file for use in the [Orange3 toolkit](https://orange.biolab.si/). 
