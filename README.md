@@ -1,5 +1,5 @@
 # scraping_EnterprisePages
-Programs and documentation regarding scraping of Enterprise Pages. This project runs in Python 3.6 or more. It is **not** supported in Python 2.7. It uses the library *scrapy* for connecting and extracing information from pages. We have created two types of scrapy spiders to be used in the process of scraping enterprise domains. The first type (**job_spider_*number*.py**) crawls over the domains and collect relevant pages, the second one (**job_scraper.py**) extracts the texts and HTML of the relevant pages.
+Programs and documentation regarding scraping of Enterprise Pages. This project runs in Python 3.6 or more. It is **not** supported in Python 2.7. It uses the library [*scrapy*](https://scrapy.org/) for connecting and extracing information from pages. We have created two types of scrapy spiders to be used in the process of scraping enterprise domains. The first type (**job_spider_*number*.py**) crawls over the domains and collect relevant pages, the second one (**job_scraper.py**) extracts the texts and HTML of the relevant pages.
 
 Scrapy projects run in a predefined architecture with predefined Python scripts, which can be edited for specific uses. The structure builds
 itself when running 
